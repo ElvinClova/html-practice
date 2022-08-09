@@ -34,6 +34,7 @@ header .nav{
 header .nav .logo{
     width: 40%;
     margin: 1rem;
+    margin-top: 1.25rem;
 }
 
 header .nav .logo img{
@@ -90,3 +91,183 @@ header .banner .title .frame img{
 /*****************************************
 *****For Main Heading
 *****************************************/
+
+main{
+    width: 100%;
+}
+
+main .heading{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+}
+
+main .heading .progression{
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 20rem;   
+}
+
+main .heading .progression .info{
+    margin: 2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    z-index: 2;
+    height: 50%;
+}
+
+main .heading .progression .info .thumbnail{
+    width: 30%;
+    padding: 0;
+}
+
+main .heading .progression .info .thumbnail img{
+    width: 100%;
+}
+
+main .heading .progression .info h3{
+    color: white;
+    font-size: large;
+    font-weight: 800;
+}
+
+main .heading .progression .info h5{
+    color: white;
+    text-align: center;
+}
+
+main .heading .progression .background-art{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+main .heading .workout{
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 20rem;   
+}
+
+main .heading .workout .info{
+    margin: 2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    z-index: 2;
+    height: 50%;
+}
+
+main .heading .workout .info .thumbnail{
+    width: 30%;
+    padding: 0;
+}
+
+main .heading .workout .info .thumbnail img{
+    width: 100%;
+}
+
+main .heading .workout .info h3{
+    color: rgb(228, 28, 38);
+    font-size: large;
+    font-weight: 800;
+}
+
+main .heading .workout .info h5{
+    color: rgb(81, 81, 81);
+    text-align: center;
+}
+
+main .heading .workout .background-art{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+main .heading .nutrition{
+    background-color: rgb(228, 28, 38);
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    height: 20rem;   
+}
+
+main .heading .nutrition .info{
+    margin: 2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    z-index: 2;
+    height: 50%;
+}
+
+main .heading .nutrition .info .thumbnail{
+    width: 30%;
+    padding: 0;
+}
+
+main .heading .nutrition .info .thumbnail img{
+    width: 100%;
+}
+
+main .heading .nutrition .info h3{
+    color: white;
+    font-size: large;
+    font-weight: 800;
+}
+
+main .heading .nutrition .info h5{
+    color: white;
+    text-align: center;
+}
+
+main .heading .nutrition .background-art{
+    position: absolute;
+    left: 10rem;
+    bottom: 0;
+    z-index: 1;
+}
+
+/*****************************************
+*****For Main Heading
+*****************************************/
+
+main .trainers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main .trainers .trainer-info{
+    display: flex;
+    justify-content: center;
+}
+
+main .trainers .stripes{
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+main .trainers .stripes img{
+    width: 100%;
+}
+
+main .trainers .couple{
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+}
+
+main .trainers .couple img{
+    width: 100%;
+}
