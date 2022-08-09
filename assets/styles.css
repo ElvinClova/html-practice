@@ -245,15 +245,111 @@ main .heading .nutrition .background-art{
 main .trainers{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 28rem;
 }
 
 main .trainers .trainer-info{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    left: 5rem;
+}
+
+main .trainers .trainer-info .text{
+    margin-top: 4rem;
+}
+
+main .trainers .trainer-info .text h4{
+    font-size: small;
+    color: rgb(94, 94, 94);
+    margin: 0;
+    font-weight: 800;
+}
+
+main .trainers .trainer-info .text h1{
+    font-weight: 800;
+    margin: 0;
+    position: relative;
+}
+
+main .trainers .trainer-info .text h1::after{
+    content: '';
+    height: 4px;
+    width: 34%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+main .trainers .trainer-info .text h5{
+    font-size: medium;
+    color: rgb(32, 32, 32);
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+main .trainers .trainer-info .types{
+    margin-bottom: 3rem;
+    position: relative;
+    right: 1rem;
+}
+
+main .trainers .trainer-info .types .one{
     display: flex;
-    justify-content: center;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+main .trainers .trainer-info .types .clipart{
+    width: 13%;
+}
+
+main .trainers .trainer-info .types .clipart img{
+    width: 100%;
+}
+
+main .trainers .trainer-info .types .one h5{
+    margin: 0;
+    font-size: small;
+    font-weight: 100;
+}
+
+main .trainers .trainer-info .types .one h4{
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    font-size: small;
+}
+
+main .trainers .trainer-info .types .two{
+    display: flex;
+    gap: 2rem;
+    align-items: end;
+}
+
+main .trainers .trainer-info .types .two h5{
+    margin: 0;
+    font-size: small;
+    font-weight: 100;
+}
+
+main .trainers .trainer-info .types .two h4{
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    font-size: small;
+}
+
+main .trainers .trainer-pic{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 main .trainers .stripes{
-    width: 30%;
+    width: 95%;
     position: absolute;
     z-index: 1;
 }
@@ -263,9 +359,11 @@ main .trainers .stripes img{
 }
 
 main .trainers .couple{
-    width: 30%;
+    width: 50%;
     position: absolute;
     z-index: 2;
+    margin-top: 2rem;
+    margin-right: 13rem;
 }
 
 main .trainers .couple img{
