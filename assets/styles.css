@@ -570,3 +570,95 @@ main .choose-us .power-levels .pic img{
 #bottle{
     width: 60%;
 }
+
+/*****************************************
+*****For Main Protein
+*****************************************/
+
+main .protein{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem;
+    padding: 3rem;
+}
+
+main .protein .whey{
+    width: 90%;
+    position: relative;
+    left: 4rem;
+}
+
+main .protein .whey img{
+    width: 100%;
+}
+
+main .protein .sales .type h5{
+    font-size: small;
+    color: rgb(94, 94, 94);
+    margin: 0.5rem 0;
+}
+
+main .protein .sales .type h1{
+    font-size: xxx-large;
+    margin: 0;
+    position: relative;
+}
+
+main .protein .sales .type h1::after{
+    content: '';
+    height: 4px;
+    width: 27%;
+    background-color: rgb(228, 28, 38);
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+main .protein .sales .type h6{
+    font-size: small;
+    font-weight: 100;
+    color: rgb(126, 126, 126);
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+main .protein .sales .size button{
+    border-radius: 15px;
+    border-color: rgb(236, 236, 236);
+    background-color: rgb(236, 236, 236);
+    color: rgb(174, 174, 174);
+    padding: 0.5rem 1.5rem;
+    font-size: medium;
+    font-weight: 600;
+    margin: 0 .5rem;
+}
+
+main .protein .sales .size .start{
+    margin-left: 0;
+}
+
+main .protein .sales .size .on{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+main .protein .sales .price h1{
+    font-size: xxx-large;
+}
+
+main .protein .sales .add .cart{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+} 
+
+main .protein .sales .add .list{
+    background-color: rgb(236, 236, 236);
+    border-color: rgb(236, 236, 236);
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+} 
