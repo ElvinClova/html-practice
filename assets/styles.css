@@ -662,3 +662,84 @@ main .protein .sales .add .list{
     padding: 0.5rem 2rem;
     margin-right: 1rem;
 } 
+
+/*****************************************
+*****For Main Protein
+*****************************************/
+
+main .sign-up{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+main .sign-up .sign-up-box{
+    background-color: rgb(228, 28, 38);
+    position: relative;
+    width: 70%;
+    border-radius: 45px;
+    padding: 4rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 2;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+main .sign-up .sign-up-box img{
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    top: 3.5rem;
+    left: 4.5rem;
+}
+
+main .sign-up .sign-up-box .disctracted-text{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+main .sign-up .sign-up-box .disctracted-text h1{
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+main .sign-up .sign-up-box .disctracted-text h2{
+    color: white;
+    margin: 0;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+main .sign-up .sign-up-box .disctracted-text span{
+    color: white;
+    margin: 1rem 0;
+    font-size: small;
+    font-weight: 100;
+    width: 88%;
+}
+
+main .sign-up .sign-up-box .inputs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 80%;
+    justify-self: center;
+}
+
+main .sign-up .sign-up-box .inputs input{
+    color: rgb(172, 172, 172);
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+main .sign-up .sign-up-box .inputs button{
+    font-size: small;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
