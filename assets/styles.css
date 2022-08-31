@@ -579,7 +579,7 @@ main .protein{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 3rem;
-    padding: 3rem;
+    padding: 6rem;
 }
 
 main .protein .whey{
@@ -670,6 +670,8 @@ main .protein .sales .add .list{
 main .sign-up{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(238, 238, 238);
+    padding: 3rem;
 }
 
 
@@ -684,6 +686,7 @@ main .sign-up .sign-up-box{
     z-index: 2;
     gap: 3rem;
     align-items: center;
+    bottom: 7rem;
 }
 
 
@@ -742,4 +745,60 @@ main .sign-up .sign-up-box .inputs button{
     background-color: black;
     color: white;
     padding: 1rem 0;
+}
+
+/*****************************************
+*****For Footer
+*****************************************/
+
+footer .bottom{
+    background-color: rgb(17, 17, 17);
+    display: grid;
+    justify-items: center;
+}
+
+footer .bottom .white-logo{
+    padding: 3rem;
+}
+
+footer .bottom .contact{
+    color: white;
+    display: grid;
+    justify-items: center;
+}
+
+footer .bottom .contact h6{
+    font-size: smaller;
+    font-weight: 300;
+    width: 65%;
+    display: flex;
+    text-align: center;
+    margin: .5rem;
+}
+
+footer .bottom .contact h5{
+    font-size: x-large;
+    font-weight: 100;
+    margin: .5rem;
+    margin-top: 0;
+}
+
+footer .bottom .contact span{
+    font-size: smaller;
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+
+footer .bottom .border{
+    color: rgb(255, 255, 255);
+    border-top: solid rgb(112, 112, 112) 1px;
+    width: 100%;
+}
+
+footer .bottom .border h4{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 100;
+    padding: 1rem;
 }
